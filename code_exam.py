@@ -1,7 +1,4 @@
 import pdb
-
-
-
 class Tensor():
   
     def __init__(self, data, shape):
