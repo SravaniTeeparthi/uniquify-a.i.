@@ -40,7 +40,10 @@ class Tensor():
             il = []
             ol = []
 
+        print("Input")
         print(il)
+        print(self.shape)
+        print("Output")
         print(ol)
 
 
@@ -51,6 +54,11 @@ tensor1 = Tensor(data1, shape1)
 tensor1.reshape()
 
 data1 = [0, 1, 2, 3, 4, 5, 0.1, 0.2, -3, -2, -1, 3, 2, 1]
+shape1 = [5, 2]
+tensor1 = Tensor(data1, shape1)
+tensor1.reshape()
+
+data1 = []
 shape1 = [5, 2]
 tensor1 = Tensor(data1, shape1)
 tensor1.reshape()
